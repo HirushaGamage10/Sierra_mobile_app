@@ -168,7 +168,7 @@ class _HomePageState extends State<HomePage> {
                         itemCount: products.length,
                         gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
                           crossAxisCount: isLandscape ? 3 : 2, 
-                          childAspectRatio: isLandscape ? 2 / 2 : 2 / 3, 
+                          childAspectRatio: isLandscape ? 2 / 2 : 2 / 2.8, 
                           mainAxisSpacing: 16,
                           crossAxisSpacing: 30,
                         ),
